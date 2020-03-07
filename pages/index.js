@@ -232,7 +232,7 @@ function HomePage() {
       </ul>
 
       <a href="https://github.com/oguzbilgic/coronacanceled.com/edit/master/pages/index.js" >
-        Fork on github to update
+        Fork on github to update. Contributors:
       </a>
 
       <ul>

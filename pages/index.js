@@ -93,6 +93,20 @@ const events = [
     date: "March 30, 2020",
     status: "canceled"
   },
+  {
+    name: "ESRI Developer Summit",
+    link: "https://www.esri.com/en-us/about/events/devsummit/overview",
+    location: "Palm Springs, California",
+    date: "March 10, 2020",
+    status: "online-only"
+  },
+  {
+    name: "Microsoft WSLConf",
+    link: "https://www.wslconf.dev/",
+    location: "Redmond, WA",
+    date: "March 10-11, 2020",
+    status: "online-only"
+  },
 ]
 
 function HomePage() {

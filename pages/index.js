@@ -1,3 +1,6 @@
+import ReactGA from 'react-ga';
+import React, { useState, useEffect } from 'react';
+
 const events = [
   {
     name: "Facebook F8",
@@ -65,6 +68,15 @@ const events = [
 ]
 
 function HomePage() {
+  useEffect(() => {
+    if (window && !window.GA_INITIALIZED) {
+      ReactGA.initialize('UA-947852-24');
+      ReactGA.pageview(window.location.pathname + window.location.search);
+
+      window.GA_INITIALIZED = true
+    }
+  })
+
   return (
     <div>
       <h2>Canceled Events Due to Corona Virus - COVID-19</h2>

@@ -107,6 +107,27 @@ const events = [
     date: "March 10-11, 2020",
     status: "online-only"
   },
+  {
+    name: "Black Hat Asia 2020",
+    link: "https://www.blackhat.com/asia-20/",
+    location: "Singapore",
+    date: "March 31 - April 3, 2020",
+    status: "postponed"
+  },
+  {
+    name: "EmTech Asia",
+    link: "https://emtechasia.com/",
+    location: "Singapore",
+    date: "March 24, 2020",
+    status: "postponed"
+  },
+  {
+    name: "Game Developers Conference (GDC)",
+    link: "https://www.gdconf.com/",
+    location: "San Francisco, California",
+    date: "March 16-20, 2020",
+    status: "postponed"
+  },
 ]
 
 function HomePage() {
@@ -137,6 +158,18 @@ function HomePage() {
 
       <ul>
         {events.filter(e => e.status == 'online-only').map(event => 
+          <li>
+            <a href={event.link}>
+              {event.name}
+            </a> <b>{event.status}</b> {event.date} in {event.location}
+          </li>
+        )}
+      </ul>
+
+      <h2>Postponed Events Due to Corona Virus - COVID-19</h2>
+
+      <ul>
+        {events.filter(e => e.status == 'postponed').map(event => 
           <li>
             <a href={event.link}>
               {event.name}

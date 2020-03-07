@@ -65,6 +65,27 @@ const events = [
     date: "March 29 - April 1, 2020",
     status: "online-only"
   },
+  {
+    name: "Shopify Unite 2020 Dev Conference",
+    link: "https://unite.shopify.com/",
+    location: "Toronto",
+    date: "May 6-8, 2020",
+    status: "online-only"
+  },
+  {
+    name: "Atlassian Summit 2020",
+    link: "https://www.atlassian.com/company/events/summit",
+    location: "Las Vegas, Nevada",
+    date: "March 31 - April 2, 2020",
+    status: "online-only"
+  },
+  {
+    name: "DocuSign Momentum",
+    link: "https://momentum.docusign.com/",
+    location: "San Francisco, California",
+    date: "March 4, 2020",
+    status: "online-only"
+  },
 ]
 
 function HomePage() {

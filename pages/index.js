@@ -165,12 +165,12 @@ const events = [
     status: "online-only"
   },
   {
-     name: "First Robotics Mt Olive NJ",
-     link: "https://midatlanticrobotics.com/news/2020-mount-olive-district-event-cancellation/",
-     Location: "Mt Olive, New Jersey",
-     date: "March 7-8, 2020",
-     status: "cancelled"
-   }
+    name: "First Robotics Mt Olive NJ",
+    link: "https://midatlanticrobotics.com/news/2020-mount-olive-district-event-cancellation/",
+    location: "Mt Olive, New Jersey",
+    date: "March 7-8, 2020",
+    status: "canceled"
+  }
 ]
 
 function HomePage() {

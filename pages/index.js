@@ -103,7 +103,7 @@ const events = [
   {
     name: "Microsoft WSLConf",
     link: "https://www.wslconf.dev/",
-    location: "Redmond, WA",
+    location: "Redmond, Washington",
     date: "March 10-11, 2020",
     status: "online-only"
   },
@@ -159,7 +159,7 @@ const events = [
   {
     name: "Microsoft MVP Global Summit",
     link: "https://mvp.microsoft.com/summit",
-    location: "Redmond, WA",
+    location: "Redmond, Washington",
     date: "March 15-20, 2020",
     status: "online-only"
   },

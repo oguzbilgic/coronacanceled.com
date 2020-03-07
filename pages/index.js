@@ -14,13 +14,6 @@ const events = [
     status: "canceled"
   },
   {
-    name: "Adobe Summit",
-    link: "https://summit.adobe.com/na/",
-    location: "Las Vegas",
-    date: "March 29 - April 2, 2020",
-    status: "online-only"
-  },
-  {
     name: "Cisco Live Melbourne",
     link: "https://www.ciscolive.com/apjc.html",
     location: "Melbourne",
@@ -48,15 +41,48 @@ const events = [
     date: "March 16-18, 2020",
     status: "canceled"
   },
+  {
+    name: "Adobe Summit",
+    link: "https://summit.adobe.com/na/",
+    location: "Las Vegas",
+    date: "March 29 - April 2, 2020",
+    status: "online-only"
+  },
+  {
+    name: "Google Cloud Next",
+    link: "https://cloud.withgoogle.com/next/sf",
+    location: "San Francisco, California",
+    date: "April 6-8, 2020",
+    status: "online-only"
+  },
+  {
+    name: "SAS Global Forum",
+    link: "https://www.sas.com/en_us/events/sas-global-forum.html",
+    location: "Washington, DC",
+    date: "March 29 - April 1, 2020",
+    status: "online-only"
+  },
 ]
 
 function HomePage() {
   return (
     <div>
-      <h2>Events Canceled, Postponed or Online-only due to Corona Virus</h2>
+      <h2>Canceled Events Due to Corona Virus - COVID-19</h2>
 
       <ul>
-        {events.map(event => 
+        {events.filter(e => e.status == 'canceled').map(event => 
+          <li>
+            <a href={event.link}>
+              {event.name}
+            </a> <b>{event.status}</b> {event.date} in {event.location}
+          </li>
+        )}
+      </ul>
+
+      <h2>Online Only Events Due to Corona Virus - COVID-19</h2>
+
+      <ul>
+        {events.filter(e => e.status == 'online-only').map(event => 
           <li>
             <a href={event.link}>
               {event.name}

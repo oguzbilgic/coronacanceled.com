@@ -34,6 +34,20 @@ const events = [
     date: "March 9-12, 2020",
     status: "canceled"
   },
+  {
+    name: "Google I/O",
+    link: "https://events.google.com/io/",
+    location: "Mountain View, California",
+    date: "May 12-14, 2020",
+    status: "canceled"
+  },
+  {
+    name: "SAP Ariba LIVE",
+    link: "https://fusion.concur.com/fusion-orlando-announcement",
+    location: "Las Vegas",
+    date: "March 16-18, 2020",
+    status: "canceled"
+  },
 ]
 
 function HomePage() {

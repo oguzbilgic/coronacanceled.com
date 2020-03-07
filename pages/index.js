@@ -128,6 +128,20 @@ const events = [
     date: "March 16-20, 2020",
     status: "postponed"
   },
+  {
+    name: "Kaspersky's Security Analyst Summit",
+    link: "https://thesascon.com/",
+    location: "Barcelona",
+    date: "April 6-9, 2020",
+    status: "postponed"
+  },
+  {
+    name: "Paris Blockchain Week Summit",
+    link: "https://www.pbwsummit.com/",
+    location: "Paris, France",
+    date: "March 31 - April 1, 2020",
+    status: "postponed"
+  },
 ]
 
 function HomePage() {

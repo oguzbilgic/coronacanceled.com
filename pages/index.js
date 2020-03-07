@@ -149,6 +149,20 @@ const events = [
     date: "March 16-19, 2020",
     status: "online-only"
   },
+  {
+    name: "Ingram Micro Cloud Cloud Summit 2020 ",
+    link: "https://www.ingrammicrocloud.com/press-releases/ingram-micro-cloud-postpones-cloud-summit-2020-early-2021/",
+    location: "Miami Beach, Florida",
+    date: "March 12-14, 2020",
+    status: "postponed"
+  },
+  {
+    name: "Microsoft MVP Global Summit",
+    link: "https://mvp.microsoft.com/summit",
+    location: "Redmond, WA",
+    date: "March 15-20, 2020",
+    status: "online-only"
+  },
 ]
 
 function HomePage() {

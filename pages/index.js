@@ -2,6 +2,11 @@ import ReactGA from 'react-ga';
 import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 
+const contributors = [
+  'montanaflynn',
+  'bdmorin'
+]
+
 const events = [
   {
     name: "Facebook F8",
@@ -226,9 +231,15 @@ function HomePage() {
         )}
       </ul>
 
-      <a 
-        href="https://github.com/oguzbilgic/coronacanceled.com/edit/master/pages/index.js"
-      >Fork on github to update</a>
+      <a href="https://github.com/oguzbilgic/coronacanceled.com/edit/master/pages/index.js" >
+        Fork on github to update
+      </a>
+
+      <ul>
+        {contributors.map(contributor =>
+          <li><a href={`https://github.com/${contributor}`}>{contributor}</a></li>
+        )}
+      </ul>
     </div>
   )
 }

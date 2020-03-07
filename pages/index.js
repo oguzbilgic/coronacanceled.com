@@ -86,6 +86,13 @@ const events = [
     date: "March 4, 2020",
     status: "online-only"
   },
+  {
+    name: "dotGo 2020",
+    link: "https://www.dotgo.eu/",
+    location: "Paris, France",
+    date: "March 30, 2020",
+    status: "canceled"
+  },
 ]
 
 function HomePage() {

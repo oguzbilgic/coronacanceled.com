@@ -90,7 +90,10 @@ function HomePage() {
           </li>
         )}
       </ul>
-      <a>Update on github</a>
+
+      <a 
+        href="https://github.com/oguzbilgic/coronacanceled.com/edit/master/pages/index.js"
+      >Fork on github to update</a>
     </div>
   )
 }

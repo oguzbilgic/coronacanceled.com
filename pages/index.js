@@ -1,4 +1,5 @@
 import ReactGA from 'react-ga';
+import Head from 'next/head'
 import React, { useState, useEffect } from 'react';
 
 const events = [
@@ -177,6 +178,11 @@ function HomePage() {
 
   return (
     <div>
+      <Head>
+        <title>Events effected (canceled/postponed) by Corona Virus COVID-19</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       <h2>Canceled Events Due to Corona Virus - COVID-19</h2>
 
       <ul>

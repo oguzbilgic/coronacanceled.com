@@ -142,6 +142,13 @@ const events = [
     date: "March 31 - April 1, 2020",
     status: "postponed"
   },
+  {
+    name: "F5 Agility 2020",
+    link: "https://www.f5.com/agility",
+    location: "Orlando, Florida",
+    date: "March 16-19, 2020",
+    status: "online-only"
+  },
 ]
 
 function HomePage() {

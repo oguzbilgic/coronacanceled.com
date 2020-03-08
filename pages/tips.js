@@ -43,7 +43,7 @@ function HomePage() {
       <h2>Corona Tips</h2>
 
       <p>
-      Corona tips from reliable sources. Refresh page to see more. <a href="https://twitter.com/intent/tweet?text=https://coronacanceled.com">Tweet us</a> to suggest a tweet
+      Corona tips from reliable sources. Refresh page to see more. <a href="https://twitter.com/intent/tweet?text=your+tip+https://coronacanceled.com/tips">Tweet us</a> to suggest a tweet
       </p>
 
       <TweetEmbed id={id} />

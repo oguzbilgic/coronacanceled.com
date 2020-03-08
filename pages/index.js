@@ -312,6 +312,14 @@ const events = [
     date: "May 26, 2020",
     status: "postponed"
   },
+  {
+    name: "Ultra Abu Dhabi",
+    category: 'concert',
+    link: "https://ultra-abudhabi.com/ticket-notice/",
+    location: "Abu Dhabi",
+    date: "March 5-6, 2020",
+    status: "canceled"
+  },
 ]
 
 const EventsList = ({ events }) => (

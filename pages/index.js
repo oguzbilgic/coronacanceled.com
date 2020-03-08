@@ -289,7 +289,7 @@ const events = [
     status: "postponed"
   },
   {
-    name: "Tomorrowland Winter Franche",
+    name: "Tomorrowland Winter France",
     category: 'concert',
     link: "",
     location: "France",

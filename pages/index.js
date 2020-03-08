@@ -195,6 +195,10 @@ function HomePage() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
+      <div>
+        <a href="https://twitter.com/intent/tweet?text=https://coronacanceled.com">Share on Twitter</a>
+      </div>
+
       <h2>Canceled Events Due to Corona Virus - COVID-19</h2>
 
       <ul>

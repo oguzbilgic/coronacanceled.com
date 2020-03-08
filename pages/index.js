@@ -203,7 +203,7 @@ const events = [
   {
     name: "Formula 1: The Bahrain Grand Prix ",
     category: 'sports',
-    link: "",
+    link: "https://www.formula1.com/en/racing/2020/Bahrain.html",
     location: "Bahrain",
     date: "March 20-22, 2020",
     status: "online-only"

@@ -240,6 +240,30 @@ const events = [
     date: "April 4, 2020",
     status: "postponed"
   },
+  {
+    name: "2020 Milan San Remo Pro Race",
+    category: 'sports',
+    link: "",
+    location: "Milan, Italy",
+    date: "March 21, 2020",
+    status: "postponed"
+  },
+  {
+    name: "European Tour Magical Kenya Open",
+    category: 'sports',
+    link: "https://www.europeantour.com/european-tour/news/articles/detail/european-tour-statement-on-magical-kenya-open/",
+    location: "Nairobi, Kenya",
+    date: "March 12-15, 2020",
+    status: "canceled"
+  },
+  {
+    name: "Alpine Skiing World Cup Finals",
+    category: 'sports',
+    link: "https://www.fis-ski.com/international-ski-federation/news-multimedia/news/fis-alpine-ski-world-cup-finals-cortina-ita-cancelled",
+    location: "Cortina d'Ampezzo, Italy",
+    date: "March 18-22, 2020",
+    status: "canceled"
+  },
 ]
 
 const EventsList = ({ events }) => (

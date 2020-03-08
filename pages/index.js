@@ -296,6 +296,14 @@ const events = [
     date: "March 14-21, 2020",
     status: "canceled"
   },
+  {
+    name: "Ultra Music Festival",
+    category: 'concert',
+    link: "https://ultramusicfestival.com/official-notice",
+    location: "Miami, Florida",
+    date: "March 20-22, 2020",
+    status: "canceled"
+  },
 ]
 
 const EventsList = ({ events }) => (

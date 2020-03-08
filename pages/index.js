@@ -280,6 +280,14 @@ const events = [
     date: "March 10, 2020",
     status: "online-only"
   },
+  {
+    name: "Strade Bianche",
+    category: 'sports',
+    link: "https://www.strade-bianche.it/",
+    location: "Tuscany, Italy",
+    date: "March 7, 2020",
+    status: "postponed"
+  },
 ]
 
 const EventsList = ({ events }) => (

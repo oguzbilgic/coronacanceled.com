@@ -288,6 +288,14 @@ const events = [
     date: "March 7, 2020",
     status: "postponed"
   },
+  {
+    name: "Tomorrowland Winter Franche",
+    category: 'concert',
+    link: "",
+    location: "France",
+    date: "March 14-21, 2020",
+    status: "canceled"
+  },
 ]
 
 const EventsList = ({ events }) => (
@@ -327,6 +335,18 @@ function HomePage() {
 
       <ul>
         {events.filter(e => e.category == 'sports').map(event => 
+          <li>
+            <a href={event.link}>
+              {event.name}
+            </a> <b>{event.status}</b> {event.date} in {event.location}
+          </li>
+        )}
+      </ul>
+
+      <h2>Effected Concerts Due to Corona Virus - COVID-19</h2>
+
+      <ul>
+        {events.filter(e => e.category == 'concert').map(event => 
           <li>
             <a href={event.link}>
               {event.name}

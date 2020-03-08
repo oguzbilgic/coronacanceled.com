@@ -332,14 +332,8 @@ function HomePage() {
       </ul>
 
       <a href="https://github.com/oguzbilgic/coronacanceled.com/edit/master/pages/index.js" >
-        Fork on github to update. Contributors:
+        Fork on github to update
       </a>
-
-      <ul>
-        {contributors.map(contributor =>
-          <li><a href={`https://github.com/${contributor}`}>{contributor}</a></li>
-        )}
-      </ul>
     </div>
   )
 }

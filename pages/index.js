@@ -264,6 +264,14 @@ const events = [
     date: "March 18-22, 2020",
     status: "canceled"
   },
+  {
+    name: "2020 Gymnastics World Cup Doha",
+    category: 'sports',
+    link: "https://www.gymnastics.sport/site/events/detail.php?id=14999",
+    location: "Doha, Qatar",
+    date: "March 18-21, 2020",
+    status: "online-onlye"
+  },
 ]
 
 const EventsList = ({ events }) => (

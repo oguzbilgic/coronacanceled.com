@@ -304,6 +304,14 @@ const events = [
     date: "March 20-22, 2020",
     status: "canceled"
   },
+  {
+    name: "Queen's Paris Show",
+    category: 'concert',
+    link: "http://www.queenonline.com/news/statement-paris-show-postponed?fbclid=IwAR2dwEU4n1AtIKv4hWQiLl98kY0rV0QeuQ0MgpcQeMKW-pVtHGMJmYf_aVI",
+    location: "Paris, France",
+    date: "May 26, 2020",
+    status: "postponed"
+  },
 ]
 
 const EventsList = ({ events }) => (

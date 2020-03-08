@@ -196,7 +196,7 @@ function HomePage() {
       </Head>
 
       <div>
-        <a href="https://twitter.com/intent/tweet?text=https://coronacanceled.com">Share on Twitter</a>
+        <a href="https://twitter.com/intent/tweet?text=event+info+https://coronacanceled.com">Tweet to add event info</a>
       </div>
 
       <h2>Canceled Events Due to Corona Virus - COVID-19</h2>

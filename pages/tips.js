@@ -33,7 +33,7 @@ function HomePage() {
   return (
     <div>
       <Head>
-        <title>Events effected (canceled/postponed) by Corona Virus COVID-19</title>
+        <title>Simple Tips for Corona</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 

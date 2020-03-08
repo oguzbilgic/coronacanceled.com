@@ -211,7 +211,7 @@ const events = [
   {
     name: "Barcelona Marathon",
     category: 'sports',
-    link: "",
+    link: "https://www.zurichmaratobarcelona.es/eng/",
     location: "Barcelona, Spain",
     date: "March 15, 2020",
     status: "postponed"

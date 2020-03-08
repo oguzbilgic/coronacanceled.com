@@ -270,7 +270,15 @@ const events = [
     link: "https://www.gymnastics.sport/site/events/detail.php?id=14999",
     location: "Doha, Qatar",
     date: "March 18-21, 2020",
-    status: "online-onlye"
+    status: "online-only"
+  },
+  {
+    name: "Valencia's Champions League",
+    category: 'sports',
+    link: "https://www.uefa.com/uefachampionsleague/clubs/52268--valencia/",
+    location: "Valencia, Spain",
+    date: "March 10, 2020",
+    status: "online-only"
   },
 ]
 
